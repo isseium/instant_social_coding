@@ -5,8 +5,9 @@ import threading
 
 def show_ramen():
     print "--------------------------------------------------------------------------------"
+    print "|                                                                              |"
 
 print "timer start"
-timer = threading.Timer(180.0, show_ramen)
+timer = threading.Timer(3.0, show_ramen)
 timer.start()
 
