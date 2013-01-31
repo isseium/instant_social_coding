@@ -3,8 +3,10 @@
 
 import threading
 
+def show_ramen():
+    print "--------------------------------------------------------------------------------"
+
 print "timer start"
 timer = threading.Timer(180.0, show_ramen)
-timer.start
+timer.start()
 
-def show_ramen():
